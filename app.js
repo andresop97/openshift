@@ -31,7 +31,7 @@ app.use('/mars', function(req, res, next) {
 });
 
 app.use('/update', function(req, res, next) {
-  res.send('Updated again :O!');
+  res.send('Updated v3 :O!');
 });
 
 // catch 404 and forward to error handler
