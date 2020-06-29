@@ -26,6 +26,14 @@ app.use('/mars', function(req, res, next) {
   res.send('Hello Mars!');
 });
 
+app.use('/mars', function(req, res, next) {
+  res.send('Hello Mars!');
+});
+
+app.use('/update', function(req, res, next) {
+  res.send('Updated!');
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
